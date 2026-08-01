@@ -1,7 +1,27 @@
 aid: recyda
 name: Recyda
-description: Recyda is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Recyda is a German software company offering an all-in-one platform for
+  packaging sustainability and regulatory compliance. The platform centralizes
+  packaging data, automates Extended Producer Responsibility (EPR) fee
+  calculation and declaration across 20+ countries, and assesses packaging
+  recyclability against standards such as the ZSVR Minimum Standard and EN
+  18120. It supports EU Packaging and Packaging Waste Regulation (PPWR)
+  compliance, portfolio-wide assessments, and submission-ready reporting,
+  turning weeks of manual compliance work into minutes. Recyda is trusted by
+  global brands and is backed by venture firm Speedinvest.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.recyda.com/static/img/og.png
 url: https://raw.githubusercontent.com/api-evangelist/recyda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Packaging
+- Sustainability
+- Compliance
+- EPR
+- Recyclability
+- Regulatory Technology
+- ESG
 apis: []
+common:
+- type: DomainSecurity
+  url: security/recyda-domain-security.yml
+- type: Website
+  url: https://www.recyda.com
+- type: Blog
+  url: https://www.recyda.com/blog
+- type: PrivacyPolicy
+  url: https://www.recyda.com/privacy-policy
+- type: Login
+  url: https://app.recyda.com
+- type: Support
+  url: https://www.recyda.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
